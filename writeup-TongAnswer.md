@@ -11,11 +11,6 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
 ---
 
 ### Reflection
@@ -41,8 +36,11 @@ The goals / steps of this project are the following:
     * Apply region of interest mask to the lane lines drawn.
 * Here are some examples:
 
-[solidYellowCurve.jpg]: ./test_images_output/solidYellowCurve.jpg
-[solidWhiteRight.jpg]: ./test_images_output/solidWhiteRight.jpg
+solidYellowCurve.jpg:
+![alt text](./test_images_output/solidYellowCurve.jpg "")
+
+solidWhiteRight.jpg
+![alt text](./test_images_output/solidWhiteRight.jpg "")
 
 
 
