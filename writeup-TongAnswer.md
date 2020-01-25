@@ -30,7 +30,7 @@ The goals / steps of this project are the following:
     * Classify detected lines into the left or right cluster based on whether their slope is closer to the 20p of all slopes or the 80p.
     * Prune each cluster by removing the 25% of lines whose slopes are furthest away from the cluster center.
     * Update the cluster centers to the average of slopes of lines that remain in the cluster. 
-    * (The above procedure is similar to running the KNN clustering algorithm for one iteration by hand)
+    * (The above procedure is similar to running the K-means clustering algorithm for one iteration by hand)
     * The left cluster center is the slope of the left lane line; similarly for the right.
     * Compute the intercepts. Draw full length lane lines.
     * Apply region of interest mask to the lane lines drawn.
